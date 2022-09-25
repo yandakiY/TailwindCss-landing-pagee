@@ -1,1 +1,3 @@
-# Landing Page with TailwindCSS
+# Landing Page
+
+## These landing pages are made with TAILWIND CSS

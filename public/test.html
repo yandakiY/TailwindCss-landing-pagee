@@ -55,6 +55,7 @@
                 </div>
             </div>
         </section>
+    
     </div>
 
     <!-- Partners -->
@@ -207,7 +208,7 @@
         <!-- First part : List of questions  -->
         <div class="container py-4">
 
-            <div class="flex justify-center">
+            <div class="flex flex-row justify-center">
 
                 <div class="flex flex-col gap-4">
 
@@ -234,28 +235,28 @@
 
         </div>
 
-        <!-- Second part : Forms to send a ask  -->
+        <!-- Second part : Formulaire to send a ask  -->
 
         <div class="bg-gradient-to-r from-neutral-50 to-zinc-500">
             <div class="container py-4 ">
                 <!-- Title of part  -->
                 <div class="text-center py-6 flex flex-col">
-                    <h2 class="font-bold text-zinc-700 font-Oswald text-xl uppercase">Nous contacter : </h2>
+                    <h2 class="font-bold text-zinc-700 font-Oswald text-xl uppercase">Contact us : </h2>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deleniti recusandae delectus minus similique, sint, e iusto.</p> -->
                 </div>
 
                 <div>
                     <form class="flex flex-col" action="">
                         <!-- First line  -->
-                        <div class="flex gap-8 grid lg:grid-cols-2">
+                        <div class="flex gap-32 grid lg:grid-cols-2">
                             <input type="text" placeholder="Nom & Prenom" class="flex-1 px-3 py-2 outline-none rounded-lg" required name="" id="">
                             <input type="email" placeholder="Email" class="flex-1 px-3 py-2 outline-none rounded-lg" required name="" id="">
-                            
                         </div>
+                        <!-- Second line - <Textarea></Textarea> -->
                         <div class="text-center mt-4">
                             <textarea placeholder="Votre message" class="flex-1 px-2 py-1 outline-none rounded-lg" name="" id="" cols="50" rows="5"></textarea>
                         </div>
-
+                        <!-- Button part -->
                         <div class="flex justify-center mt-4">
                             <button class="bg-neutral-800 hover:bg-zinc-700 rounded-lg text-white px-4 py-2">
                                 Send Message
@@ -268,6 +269,48 @@
         
         
     </section>
+
+    <hr class="border-stone-500">
+
+    <!-- Footer Part -->
+
+    <footer class="relative bg-gradient-to-r from-neutral-50 to-zinc-500">
+        
+        <div class="container">
+            
+            <div class="flex flex-row items-center justify-between">
+                 <!-- LEft part (Logo + Links) -->
+                <div class="flex flex-row items-center gap-x-8">
+                    <!-- Logo  -->
+                    <div class="flex items-center gap-x-4">
+                        <img src="https://img.icons8.com/clouds/100/000000/apple-podcasts.png"/>
+                        <h1 class="font-bold text-zinc-600 font-Oswald uppercase">Podcats.com</h1>
+                    </div>
+                    <div class="text-xl text-zinc-600">
+                        <ul class="flex items-center gap-x-8 cursor-pointer">
+                            <li class="">Partners</li>
+                            <li class="">Features</li>
+                            <li class="">Contacts us</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right part (Social media + Links) -->
+                <div class="flex flex-row gap-x-4">
+                    <!-- Facebook icons  -->
+                    <div>
+                        <img src="../logo/facebook--v1.png" class="cursor-pointer" style="height: 50px;" />
+                    </div>
+                    <!-- Insta icons  -->
+                    <div>
+                        <img src="../logo/messagewhata.png" class="cursor-pointer" style="height: 50px;" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        
+    </footer>
     
 </body>
 </html>

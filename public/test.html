@@ -9,6 +9,7 @@
 
     <title>Document</title>
 </head>
+
 <body>
 
     <!-- First Block  -->
@@ -25,7 +26,7 @@
                 </div>
 
                 <!-- Links div -->
-                <div class="text-xl text-zinc-600">
+                <div class="hidden md:block text-xl text-zinc-600">
                     <ul class="flex items-center gap-x-8 cursor-pointer">
                         <li class="hover:border-b border-stone-900 transition-all">Partners</li>
                         <li class="hover:border-b border-stone-900 transition-all">Features</li>
@@ -33,14 +34,17 @@
                         <li class="bg-gray-800 hover:bg-gray-600 text-gray-50 px-4 py-2 rounded-lg transition-all">Login</li>
                     </ul>
                 </div>
+                <div class="block md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
         </header>
 
         <!-- Hero -->
         <section class="relative">
-            <div class="container flex items-center gap-x-32 mt-40">
+            <div class="container flex flex-col-reverse md:flex-row items-center gap-x-32 mt-20 lg:mt-40">
                 <!-- Left part  -->
-                <div class="flex flex-col">
+                <div class="flex flex-col lg:justify-start lg:items-start items-center lg:mt-0 mt-16">
                     <h2 class="font-bold text-zinc-700 font-Oswald text-2xl uppercase">Podcats.com</h2>
                     <p class="text-zinc-700 text-l text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fuga consectetur vel, accusamus quia, libero aut, debitis beatae excepturi tenetur deserunt odio quibusdam aspernatur iste voluptate eaque error possimus officiis?</p>
                     <div class="flex gap-x-8 mt-4">
@@ -81,6 +85,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- Features & Cards  -->
@@ -198,7 +203,7 @@
     </section>
 
     <!-- Contact us -->
-    <section class="relative">
+    <section class="relative bg-gradient-to-r from-neutral-50 to-zinc-500">
         <!-- Title of part  -->
         <div class="text-center py-6 flex flex-col">
             <h2 class="font-bold text-zinc-700 font-Oswald text-2xl uppercase">Asks frequents : </h2>
@@ -313,4 +318,5 @@
     </footer>
     
 </body>
+
 </html>

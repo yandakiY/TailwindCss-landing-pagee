@@ -574,8 +574,8 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .mt-4 {
@@ -594,8 +594,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .block {
@@ -664,12 +664,12 @@ video {
   gap: 1rem;
 }
 
-.gap-32 {
-  gap: 8rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-32 {
+  gap: 8rem;
 }
 
 .gap-x-4 {

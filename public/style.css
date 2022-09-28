@@ -609,8 +609,26 @@ video {
   height: 100vh;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .w-1 {
   width: 0.25rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -932,6 +950,14 @@ video {
     display: none;
   }
 
+  .md\:h-80 {
+    height: 20rem;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -952,6 +978,10 @@ video {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:h-80 {
+    height: 20rem;
   }
 
   .lg\:grid-cols-3 {
